@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>HITW - App Compagnon</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light">
+
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+
+<div id="page">
+
+    <div class="header header-fixed header-logo-center header-auto-show">
+        <a href="index.html" class="header-title">Infos pratiques</a>
+        <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-chevron-left"></i></a>
+    </div>
+
+    <div id="footer-bar" class="footer-bar-6">
+        <a href="program.html"><i class="fa fa-layer-group"></i><span>Talks</span></a>
+        <a href="plan.html"><i class="fa fa-file"></i><span>Plan</span></a>
+        <a href="index.html" class="circle-nav active-nav"><i class="fa fa-home"></i><span>Home</span></a>
+        <a href="talks.html"><i class="fa fa-camera"></i><span>Talks</span></a>
+        <a href="emergency.html"><i class="fa fa-phone"></i><span>Urgence</span></a>
+    </div>
+
+    <div class="page-title page-title-fixed">
+        <h1>Infos pratiques</h1>
+        <a href="#" class="page-title-icon shadow-xl bg-theme color-theme show-on-theme-light" data-toggle-theme><i class="fa fa-moon"></i></a>
+        <a href="#" class="page-title-icon shadow-xl bg-theme color-theme show-on-theme-dark" data-toggle-theme><i class="fa fa-lightbulb color-yellow-dark"></i></a>
+        <a href="#" class="page-title-icon shadow-xl bg-theme color-theme" data-menu="menu-main"><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="page-title-clear"></div>
+
+    <div class="page-content">
+
+        <div class="card card-style bg-11" data-card-height="250">
+            <div class="card-center text-center">
+                <h1 class="color-white text-center  mb-n2">Comment pouvons-nous vous aider?</h1>
+                <p class="color-white opacity-50">Nous avons peut-être déjà la solution.</p>
+                <div class="ms-4 me-4">
+                    <div class="search-box bg-white rounded-m bottom-0">
+                        <i class="fa fa-search ms-2"></i>
+                        <input type="text" class="border-0" placeholder="Tapez votre recherche ici! " data-search>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-overlay bg-black opacity-60"></div>
+        </div>
+
+        <!-- Recherche sur base des mots clé -->
+
+        <div class="card card-style search-results disabled-search-list">
+            <div class="content mt-0 mb-0 pb-0">
+                <div class="list-group list-custom-large">
+                    <div data-filter-item data-filter-name="camping électricité">  
+                        <strong>Y a-t-il de l’électricité dans le camping?</strong>
+                        <p>Oui, dans le VIP Village, non dans les autres campings, sauf pour raison médicale. La demande se fait via la page « Contact».</p>    
+                    </div>
+
+                    <div data-filter-item data-filter-name="barbecue rechaud">  
+                        <strong>Les barbecues et réchauds au gaz sont-ils autorisés dans le camping?</strong>
+                        <p>Non! Des braséros seront en accès libre au sein du festival. Par mesure de sécurité, les réchauds au gaz et les barbecues « sauvages» sont interdits partout, autant dans le camping qu’au sein du site du festival.</p>  
+                        <strong>Les barbecues et réchauds au gaz sont-ils autorisés dans le camping?</strong> 
+                        <p>Non! Des braséros seront en accès libre au sein du festival. Par mesure de sécurité, les réchauds au gaz et les barbecues « sauvages» sont interdits partout, autant dans le camping qu’au sein du site du festival.</p>  
+                    </div>
+
+                    <div data-filter-item data-filter-name="sandwich frigo vegan gluten foodtrucks bar boissons magasins">  
+                        <strong>Comment puis-je me restaurer sur place?</strong> 
+                        <p>Tous les midis, un service de sandwich sera proposé. Au soir, des foodtrucks seront présents sur place. Alternatives végétariennes, sans gluten et sans lactose également proposées.
+                           Un espace cuisine avec frigos, four à micro-ondes et taques électriques seront accessibles. Voir conditions générales d’utilisation.
+                           Un bar est également accessible avec des boissons bio et maison.  
+                           Des magasins d’alimentation générale se trouvent à seulement 7 minutes en voiture du Domaine.
+                        </p>
+                    </div>
+
+                    <div data-filter-item data-filter-name="alcool">  
+                        <strong>L’alcool est-il autorisé au sein du festival?</strong>
+                        <p>Les alcools de plus de 18° sont interdits au sein du festival.</p>
+                    </div>
+
+                    <div data-filter-item data-filter-name="payer consomations cash argent liquide facture">  
+                        <strong>Comment puis-je payer sur place mes consommations?</strong>
+                        <p>Une puce sur votre bracelet en tissus vous permettra de payer vos consommations au Food Corner et au bar. Le système cashless est rechargeable aux bornes avec votre carte bancaire. Vous pourrez également recharger votre bracelet à l’accueil du festival avec de l’argent liquide. 
+                           Je souhaite avoir une facture pour mes consommations sur place. Comment cela se passe-t-il?  
+                           Il est préférable de nous prévenir à l’avance via la page «Contact» en nous communiquant le nom + prénom + adresse mail du participant ainsi que les coordonnées de facturation. Une fois arrivé sur place, nous vous communiquerons la démarche à suivre.
+                        </p>
+                    </div>
+
+                    <div data-filter-item data-filter-name="barbecue rechaud">  
+                           
+                    </div>
+
+                    <div data-filter-item data-filter-name="barbecue rechaud">  
+                           
+                    </div>
+
+                    <div class="search-no-results"><!-- use component-search for no results page --></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FAQ classique -->
+        <div class="card card-style mt-2">
+            <div class="content mb-2">
+                <p class="color-highlight font-600 mb-n1">La petite FAQ qui va bien</p>
+                <h1>Questions fréquentes</h1>
+                <p>
+                    Ces questions nous sont souvent posées, c'est pourquoi nous avons créé cette petite section pour vous aider à identifier plus rapidement ce dont vous avez besoin.
+                </p>
+
+                <div class="divider mt-2 mb-3"></div>
+
+                <h5 href="#FAQ1" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    LE CAMPING 
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ1">  
+                    <strong>Les barbecues et réchauds au gaz sont-ils autorisés dans le camping?</strong> 
+                    <p>Non! Des braséros seront en accès libre au sein du festival. Par mesure de sécurité, les réchauds au gaz et les barbecues « sauvages» sont interdits partout, autant dans le camping qu’au sein du site du festival.</p>
+                    <strong>Y a-t-il de l’électricité dans le camping?</strong>
+                    <p class="pb-3">Oui, dans le VIP Village, non dans les autres campings, sauf pour raison médicale. La demande se fait via la page « Contact».</p>    
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ2" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    FOOD & DRINK 
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ2">
+                    <strong>Comment puis-je me restaurer sur place?</strong> 
+                    <p>Tous les midis, un service de sandwich sera proposé. Au soir, des foodtrucks seront présents sur place. Alternatives végétariennes, sans gluten et sans lactose également proposées.
+                       Un espace cuisine avec frigos, four à micro-ondes et taques électriques seront accessibles. Voir conditions générales d’utilisation.
+                       Un bar est également accessible avec des boissons bio et maison.  
+                       Des magasins d’alimentation générale se trouvent à seulement 7 minutes en voiture du Domaine.
+                    </p>
+                    <strong>L’alcool est-il autorisé au sein du festival?</strong>
+                    <p>Les alcools de plus de 18° sont interdits au sein du festival.</p>
+                    <strong>Comment puis-je payer sur place mes consommations?</strong>
+                    <p>Une puce sur votre bracelet en tissus vous permettra de payer vos consommations au Food Corner et au bar. Le système cashless est rechargeable aux bornes avec votre carte bancaire. Vous pourrez également recharger votre bracelet à l’accueil du festival avec de l’argent liquide. 
+                       Je souhaite avoir une facture pour mes consommations sur place. Comment cela se passe-t-il?  
+                       Il est préférable de nous prévenir à l’avance via la page «Contact» en nous communiquant le nom + prénom + adresse mail du participant ainsi que les coordonnées de facturation. Une fois arrivé sur place, nous vous communiquerons la démarche à suivre.
+                    </p>
+                    <strong>Les barbecues et réchauds au gaz sont-ils autorisés dans le camping?</strong>
+                    <p class="pb-3">Non ! Des braséros seront en accès libre au sein du festival. Par mesure de sécurité, les réchauds au gaz et les barbecues « sauvages» sont interdits partout, autant dans le camping qu’au sein du site du festival.</p>  
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ3" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    INFORMATIQUE, ELECTRICITE ET RESEAU
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ3">
+                    <strong>Y a-t-il des ordinateurs à disposition?</strong>
+                    <p>Non, vous devez emmener votre propre matériel informatique et vos multiprises.</p>
+                    <strong>Y a-t-il de l’électricité partout sur le site?</strong>
+                    <p>Oui, des rallonges seront dispersées dans les tentes de travail et à différents endroits pour vous permettre de changer d’espace de travail. Veillez néanmoins à apporter vos propres multiprises.</p>
+                    <strong>Y a-t-il du réseau wifi partout? </strong>
+                    <p>Oui, grâce à notre partenaire Proximus, la couverture wifi se fera sur tout le site du festival.</p>
+                    <strong>Y a-t-il des casiers pour y déposer mes affaires de valeur?</strong>
+                    <p class="pb-3">
+                        Non, il n’y a pas de casiers sur le site.
+                    </p>
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ4" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    ARRIVEE ET DEPART 
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ4">
+                    <strong>Puis-je arriver le jeudi avant 18h sur le site du festival?</strong>
+                    <p>Pour des raisons de sécurité, nous ne pourrons malheureusement accueillir personne au sein du festival avant 18h le jeudi. Vous pourrez néanmoins déjà vous installer dans le camping dès 16h.</p>
+                    <strong>Quand dois-je quitter le camping?</strong>
+                    <p class="pb-3">
+                        Le camping doit être libéré le dimanche soir à 19h. Le site du festival ferme officiellement ses portes à 18h. Par mesure de sécurité, plus aucun festivalier ne pourra circuler sur le site à partir de cette heure-là.
+                    </p>
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ5" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    TICKET
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ5">
+                    <strong>Puis-je céder ma place à quelqu’un d’autre?</strong>
+                    <p>Oui, mais il est alors nécessaire de nous communiquer nom + prénom + adresse mail de la personne afin qu’elle reçoive les informations en temps et en heure.</p>
+                    <strong>Mon ticket est-il remboursable si je ne peux pas venir au festival?</strong>
+                    <p>Non, votre ticket n’est malheureusement pas remboursable quelle que soit la raison.</p>
+                    <strong>Mon compagnon ou ma compagne souhaite m’accompagner tout au long du festival. Doit-il/elle payer son entrée même s’il/elle ne code pas?</strong>
+                    <p class="pb-3">
+                        Oui! Le festival n’est accessible que sur présentation de son bracelet d’accès. Le prix de l’entrée comprend une participation aux coûts de l’infrastructure, du petit-déjeuner, du barbecue et des animations. 
+                        Les seuls moments où le festival est ouvert au public est le vendredi soir à partir de 18h et le dimanche après-midi à partir de 14h.
+                    </p>
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ6" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    EQUIPE 
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ6">
+                    <strong>Je n’ai pas encore d’équipe, comment puis-je en intégrer une?</strong>
+                    <p class="pb-3">
+                        Pas d’inquiétude! Inscrivez-vous sur ce Channel Slack. Présentez-vous en quelques mots, parlez de vos compétences, les projets qui vous intéressent particulièrement et faites un match avec une autre équipe! Si vous avez besoin d’aide, n’hésitez pas à nous contacter.
+                    </p>
+                </div>
+
+                <div class="divider mt-3 mb-3"></div>
+
+                <h5 href="#FAQ7" data-bs-toggle="collapse" role="button" class="font-14 font-600">
+                    OBJETS PERDUS  
+                    <i class="fa fa-angle-down float-end me-2 mt-1 opacity-50 font-10"></i>
+                </h5>
+                <div class="collapse" id="FAQ7">
+                    <strong>J’ai perdu un objet au Hack in the Woods, l’avez-vous trouvé?</strong>
+                    <p class="pb-3">
+                        Vous pouvez nous contacter avec une description détaillée de l’objet perdu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page content ends here-->
+
+    <!-- Main Menu-->
+    <div id="menu-main" class="menu menu-box-left rounded-0" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-pages"></div>
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>
